@@ -671,7 +671,16 @@ h4 {
     height: 40rem;
     overflow: revert;
   }
-  .section--3img:hover {
-    transform: revert;
+
+  /* .scoutsInfo {
+    display: flex;
+    flex-direction: column-reverse;
+  } */
+  .section--3container {
+    display: none;
+  }
+  .scoutContent {
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
