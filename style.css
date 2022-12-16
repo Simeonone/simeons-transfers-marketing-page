@@ -671,16 +671,26 @@ h4 {
     height: 40rem;
     overflow: revert;
   }
-
-  /* .scoutsInfo {
-    display: flex;
-    flex-direction: column-reverse;
-  } */
   .section--3container {
     display: none;
   }
-  .scoutContent {
+  .scoutContent,
+  .features__description {
     text-align: justify;
     text-justify: inter-word;
+  }
+  .header__img {
+    display: none;
+  }
+  .header__title {
+    display: flex;
+    flex-direction: column;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+  .features__img {
+    display: none;
   }
 }
