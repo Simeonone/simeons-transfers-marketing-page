@@ -693,4 +693,9 @@ h4 {
   .features__img {
     display: none;
   }
+  .footer__nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 3rem;
+  }
 }
