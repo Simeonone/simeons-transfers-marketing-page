@@ -699,4 +699,11 @@ h4 {
     column-gap: 3rem;
     row-gap: 2rem;
   }
+  .operations__tab--1,
+  .operations__tab--3 {
+    margin-right: 0.5rem;
+  }
+  .operations__tab--3 {
+    margin: 0;
+  }
 }
