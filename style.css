@@ -706,4 +706,7 @@ h4 {
   .operations__tab--3 {
     margin: 0;
   }
+  .operations__tab {
+    padding: 1rem;
+  }
 }
