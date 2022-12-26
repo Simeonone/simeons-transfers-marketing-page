@@ -689,6 +689,7 @@ h4 {
   .features {
     display: flex;
     flex-direction: column;
+    margin: 0;
   }
   .features__img {
     display: none;
