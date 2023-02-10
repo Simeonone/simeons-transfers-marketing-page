@@ -265,7 +265,6 @@ function slider() {
   //below- using event delegation
   dotContainer.addEventListener("click", function (e) {
     if (e.target.classList.contains("dots__dot")) {
-      // console.log(`DOT`);
       const { slide } = e.target.dataset;
       goToSlide(slide);
       activateDot(slide);
