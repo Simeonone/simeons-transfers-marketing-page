@@ -113,8 +113,6 @@ const obsOptions = {
 };
 function stickyNav(entries) {
   const [entry] = entries;
-  //   console.log(`cc`);
-  //   console.log(entries);
   //   nav.classList.add("sticky");
   if (!entry.isIntersecting) {
     nav.classList.add("sticky");
