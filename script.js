@@ -104,8 +104,6 @@ window.addEventListener("scroll", function () {
 //Above - same as below
 const header = document.querySelector(".header");
 const navHeight = nav.getBoundingClientRect().height;
-// console.log(navHeight);
-// console.log(`ff`);
 const obsOptions = {
   root: null,
   threshold: 0,
