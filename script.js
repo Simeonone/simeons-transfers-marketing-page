@@ -129,7 +129,6 @@ const revealEachSection = {
 };
 function revealSection(entries, observer) {
   const [entry] = entries;
-  //   console.log(entry);
   //below - a guard clause, remember?
   if (!entry.isIntersecting) {
     return;
