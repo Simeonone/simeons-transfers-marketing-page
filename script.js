@@ -59,7 +59,6 @@ tabsContainer.addEventListener("click", function (e) {
     return value.classList.remove("operations__content--active");
   });
   clicked.classList.add("operations__tab--active");
-  // console.log(`cc`);
   console.log(clicked.dataset.tab);
   document
     .querySelector(`.operations__content--${clicked.dataset.tab}`)
